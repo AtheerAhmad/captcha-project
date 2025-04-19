@@ -1,0 +1,21 @@
+# CAPTCHA Project
+
+A simple text-based CAPTCHA system built with PHP and tested using OCR-based attacks.
+
+## Technologies
+- PHP (with GD library)
+- Python (EasyOCR)
+- MySQL (optional)
+- MAMP Server (macOS)
+
+## How to Run the CAPTCHA System
+1. Place the project folder in `htdocs` inside MAMP.
+2. Start MAMP and go to `http://localhost:8888/captcha-project/index.php`.
+
+## OCR-Based CAPTCHA Breaking
+The `break_captcha.py` script uses EasyOCR to test how secure the CAPTCHA system is.  
+Screenshots and logs are in the `/ocr_results` folder.
+
+## License
+This project is for academic use only.
+
